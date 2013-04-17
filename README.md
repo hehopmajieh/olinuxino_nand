@@ -10,7 +10,7 @@ Instructions to build NAND image for Olinuxino A13
         ```
 3. Download a root file system, you can use any rootfs capable to run on armhf for example : 
 
-        [a link] (http://linux-sunxi.org/Debian) 
+        http://linux-sunxi.org/Debian 
 
 4. Download linux-sunxi Kernel :
         ```bash
