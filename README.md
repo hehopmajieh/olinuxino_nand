@@ -21,7 +21,7 @@
 
         git clone git://github.com/linux-sunxi/linux-sunxi.git
         
-5. Configure build.sh. Kepp in mind this is simpole build script, and if you want to improve it go ahead :) 
+5. Configure build.sh. Keep in mind this is very simple build script, and if you want to improve it go ahead :) 
   edit variables pointing to your right directories :
     ```bash
     CROSS="arm-linux-gnueabihf-"
@@ -32,3 +32,8 @@
     UBOOT_LOCATION="u-boot"
     ```
 6. Run build.sh
+
+ToDo : 
+        1. Adding input to choose LCD size
+        2. Auto Generate rootfs
+        3. Clean and improve code
