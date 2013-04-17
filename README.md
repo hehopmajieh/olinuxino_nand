@@ -20,10 +20,15 @@ Instructions to build NAND image for Olinuxino A13
   edit variables pointing to your right directories :
 
     CROSS="arm-linux-gnueabihf-"
+    
     ROOTFS="debarmhf"
+    
     OUT="out"
+    
     KERNEL_DIR="linux-sunxi"
+    
     PACK_DIR="pack"
+    
     UBOOT_LOCATION="u-boot"
 
 6. Run build.sh
