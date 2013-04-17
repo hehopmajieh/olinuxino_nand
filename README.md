@@ -18,17 +18,12 @@ Instructions to build NAND image for Olinuxino A13
 
 5. Configure build.sh. Kepp in mind this is simpole build script, and if you want to improve it go ahead :) 
   edit variables pointing to your right directories :
-
+    ```bash
     CROSS="arm-linux-gnueabihf-"
-    
     ROOTFS="debarmhf"
-    
     OUT="out"
-    
     KERNEL_DIR="linux-sunxi"
-    
     PACK_DIR="pack"
-    
     UBOOT_LOCATION="u-boot"
-
+    ```
 6. Run build.sh
