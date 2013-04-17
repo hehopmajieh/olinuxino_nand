@@ -1,0 +1,11 @@
++++ linux-sunxi/arch/arm/mach-sun5i/include/mach/i2c.h	2013-04-16 18:10:09.739860754 +0300
++++ linux-sunxi/arch/arm/mach-sun5i/include/mach/i2c.h
+@@ -190,7 +190,7 @@
+ 
+ #define I2C0_TRANSFER_SPEED     (400000)
+ #define I2C1_TRANSFER_SPEED     (200000)
+-#define I2C2_TRANSFER_SPEED     (200000)
++#define I2C2_TRANSFER_SPEED     (100000)
+ 
+ struct sun5i_i2c_platform_data {
+ 	int 		 bus_num;
