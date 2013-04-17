@@ -35,5 +35,7 @@
 
 ToDo : 
         1. Adding input to choose LCD size
+        
         2. Auto Generate rootfs
+        
         3. Clean and improve code
